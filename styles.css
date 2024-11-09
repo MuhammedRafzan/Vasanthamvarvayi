@@ -352,3 +352,57 @@ body {
         opacity: 0.5;
     }
 }
+header {
+    margin-bottom: 20px;
+    padding-left: 10%;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #0e320f;
+}
+
+/* Description */
+.description {
+    max-width: 600px;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    padding-left: 5%;
+    backdrop-filter: blur(7px);
+    border-radius: 2%;
+}
+.about {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2); /* Glass effect */
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25); /* Soft shadow */
+    backdrop-filter: blur(10px); /* Blurring background behind */
+    text-align: center;
+    color: #ffffff;
+}
+
+.about h2.text {
+    font-size: 2.5em;
+    color:green ; /* Golden color for header */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.about .text2 p {
+    font-size: 1.2em;
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 10px 0;
+    padding: 0 15px;
+}
+
+.about .text2 {
+    padding: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    color: #ffffff;
+}
